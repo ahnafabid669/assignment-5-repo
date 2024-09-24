@@ -12,12 +12,22 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
+
+    <style>
+
+        .clicked:hover {
+            background-color: rgb(27, 197, 27);
+          }
+
+    </style>
+
 </head>
 <body> 
     <header class="sticky top-0 bg-orange-200 shadow-md z-50">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex justify-between items-center h-16">
-            <div><button class="btn bg-green-500 btn-active ">Home</button></div>
+            <div>
+              <button id="home-btn" class="clicked btn bg-green-500 btn-active ">Home</button></div>
 
             <div class=" flex justify-center items-center gap-3"><img src="assets/logo.png" alt=""> <p class=" font-bold text-xl">Donate Bangladesh</p></div>
 
@@ -71,5 +81,10 @@
 
 
 <script src=" node.js"></script>
+<script>
+  document.getElementById("home-btn").addEventListener("click", function() {
+            window.location.href = "index.html"; // Navigate to index.html
+        });
+</script>
 </body>
 </html>
