@@ -1,14 +1,11 @@
-
-function inputFieldById(id){
+function inputFieldById(id) {
     const addMoney = document.getElementById(id).value;
     const newAddMoney = parseFloat(addMoney);
     return newAddMoney;
 }
 
-function textFieldById(id){
-    const donateBalance = document.getElementById(id).innerText;
-    const newDonateBalance = parseFloat(donateBalance);
-    return newDonateBalance ;
+function textFieldById(id) {
+    const balance = document.getElementById(id).innerText;
+    const newBalance = parseFloat(balance);
+    return newBalance;
 }
-
-console.log('hello :', newAddMoney)
