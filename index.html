@@ -38,8 +38,8 @@
         <section class=" my-10">
             <div class="  flex justify-center gap-4 ">
            
-                <button id=" button1" class="btn rounded-md ">Donate</button>
-                <button id=" button1" class="btn rounded-md">History</button>
+                <button id="buttondonate" class="btn rounded-md ">Donate</button>
+                <button id="buttonhistory" class="btn rounded-md">History</button>
            </div>
          </section>
          <div class="divider"></div>
@@ -49,7 +49,7 @@
 
         <!-- card-1 -->
 
-        <div class="card bg-base-100 rounded-lg shadow-xl my-10 flex flex-col sm:flex-col md:flex-row">
+        <div id="card=1" class="card bg-base-100 rounded-lg shadow-xl my-10 flex flex-col sm:flex-col md:flex-row">
   <figure>
       <img class="w-full sm:w-full md:w-full" src="assets/noakhali.png" alt="Flood Image" />
   </figure>
@@ -71,7 +71,7 @@
 </div>
 
 <!-- card-2 -->
-<div class="card bg-base-100 rounded-lg shadow-xl my-10 flex flex-col sm:flex-col md:flex-row">
+<div id="card-2" class="card bg-base-100 rounded-lg shadow-xl my-10 flex flex-col sm:flex-col md:flex-row">
   <figure>
       <img class="w-full sm:w-full md:w-full" src="assets/feni.png" alt="Flood Image" />
   </figure>
@@ -93,7 +93,7 @@
 </div>
 
 <!-- card-3 -->
-<div class="card bg-base-100 rounded-lg shadow-xl my-10 flex flex-col sm:flex-col md:flex-row">
+<div  id="card-3" class="card bg-base-100 rounded-lg shadow-xl my-10 flex flex-col sm:flex-col md:flex-row">
   <figure>
       <img class="w-full sm:w-full md:w-full" src="assets/quota-protest.png" alt="Flood Image" />
   </figure>
@@ -114,21 +114,26 @@
   </div>
 </div>
 
-    
-    
-    </main>
+<section class="bg-base-100 rounded-lg shadow-xl my-10 ">
+  <h1 class="flex justify-center font-bold text-4xl py-3 px-5 my-8"> Transaction History </h1>
+
+
+
+</section>
+
+
+
+
+
+</main>
 
 <script src="node.js"></script>
 <script src="utilities.js"></script>
-
 
 <script>
   document.getElementById("blog-btn").addEventListener("click", function() {
     window.location.href = "blog.html";
 });
-
-
-
 
 </script>
 

@@ -9,3 +9,13 @@ function textFieldById(id) {
     const newBalance = parseFloat(balance);
     return newBalance;
 }
+
+function showSectionById(id){
+    document.getElementById('card-1').classList.add('hidden');
+    
+    document.getElementById('card-1').classList.add('hidden');
+    
+    document.getElementById('card-1').classList.add('hidden');
+    
+    document.getElementById(id).classList.remove('hidden');
+}
