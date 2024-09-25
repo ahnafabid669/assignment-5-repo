@@ -13,9 +13,10 @@ function textFieldById(id) {
 function showSectionById(id){
     document.getElementById('card-1').classList.add('hidden');
     
-    document.getElementById('card-1').classList.add('hidden');
+    document.getElementById('card-2').classList.add('hidden');
     
-    document.getElementById('card-1').classList.add('hidden');
+    document.getElementById('card-3').classList.add('hidden');
+    document.getElementById('card-4').classList.add('hidden');
     
     document.getElementById(id).classList.remove('hidden');
 }

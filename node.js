@@ -35,10 +35,15 @@ if (newAddMoney >= 0) {
   alert('Donation amount exceeds the main balance.');
         }
  }
- 
+
      
 else {
  alert('Invalid donation amount. Please enter a value greater than 0.');
     }
 }
+
+document.getElementById('buttonHistory').addEventListener('click', function(){
+    showSectionById('card-4');
+
+});
 
